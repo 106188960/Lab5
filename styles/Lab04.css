@@ -1,0 +1,63 @@
+/*
+
+filename: Samuel Moore-Coulson  
+
+author: Samuel Moore-Coulson
+
+created: 28/08/2025
+
+last modified: 28/08/2025
+
+description: CSS style sheet for Lab04.HTML
+
+*/
+
+h1 { 
+    color: purple; 
+    font-size: 2em; 
+    font-weight: bold; 
+}
+* {
+    font-family: calibri, sans-serif;
+}
+h2 {
+    color: rgb(0,128,128);
+    font-size: 150%;
+    font-weight: bold;
+}
+aside, footer {
+    font-style: italic;
+}
+header {
+    font-family: arial, sans-serif;
+}
+table {
+    border: 1px solid black;
+}
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+.Month {
+    text-align: right;
+}
+nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 4px solid #ccc;
+}
+ol ul {
+    list-style-type: square;
+}
+
+
+body nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
+#head3 {
+    color: red;
+}
+#images {
+    text-align: center;
+}
